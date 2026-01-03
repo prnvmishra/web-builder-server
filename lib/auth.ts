@@ -29,7 +29,9 @@ export const auth = betterAuth({
                 path: '/',
             }
         }
-    }
+    },
+    generateId: false,
+    disableCSRFCheck: true
   }
   
 });
